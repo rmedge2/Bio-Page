@@ -1,8 +1,18 @@
-@media screen and (max-width: 480px) {
-}
-/* body {
-    background-color: gray;
-} */
+body {
+    background: url("images/backround2.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'DM Sans';
+  }
+  
+
 .head-shot {
-    border-radius: 15px;
+    width: 320px;
+    height: 240px;
+    border-radius: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
 }
