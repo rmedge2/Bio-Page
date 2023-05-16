@@ -3,8 +3,7 @@ body {
     background-size: cover;
     color: white;
     font-family: 'DM Sans';
-  }
-  
+}
 
 .head-shot {
     width: 320px;
@@ -12,7 +11,24 @@ body {
     border-radius: 100%;
 }
 
-header{
+.header-container {
     display: flex;
     justify-content: space-evenly;
+    width: 800px;
+}
+
+header{
+    background-color: #E1C16E;
+    display: flex;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph-box{
+    width: 500px
 }
